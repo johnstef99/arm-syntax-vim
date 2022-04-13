@@ -1,2 +1,2 @@
-au BufRead *.[sS]  call arm#ft#FTarm()
-au BufRead *.[sS]  set filetype=arm
+au BufNewFile,BufRead *.[sS]  call arm#ft#FTarm()
+au BufNewFile,BufRead *.[sS]  set filetype=arm
